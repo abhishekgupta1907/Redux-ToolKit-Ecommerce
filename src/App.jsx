@@ -16,16 +16,16 @@ function App() {
                 <Routes>
                     <Route
                         path="/"
-                        element={authUser ? <Main></Main> : <Login></Login>}
+                        element={authUser ? <Main /> : <Login />}
                     ></Route>
 
                     <Route
                         path="/filteredProducts/:type"
-                        element={<FilteredProducts></FilteredProducts>}
+                        element={<FilteredProducts />}
                     ></Route>
                     <Route
                         path="/filteredProducts/:type/:id"
-                        element={<SingleProduct></SingleProduct>}
+                        element={<SingleProduct />}
                     ></Route>
                 </Routes>
             </BrowserRouter>
