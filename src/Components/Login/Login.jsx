@@ -67,6 +67,7 @@ const Login = () => {
                 <CardFooter className="pt-0">
                     <Button
                         variant="gradient"
+                        color="blue"
                         fullWidth
                         onClick={() => dispatch(login(values))}
                     >
